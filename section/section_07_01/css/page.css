@@ -1,0 +1,128 @@
+.fixedContent {
+    height: 500px;
+    background-color: #111;
+    position: relative;
+}
+
+.fixedContent h2{
+    width:100%;
+    text-align:center;
+    font-size: 80px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+}
+
+.apple {
+    height: 5000px;
+    background: #000;
+    position: relative;
+}
+
+.apple .appleContent {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+.apple .appleContent .firstTitle{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    opacity: 1;
+    transition: opacity .5s;
+    z-index: 5000;
+}
+
+.apple .appleContent .firstTitle.active {
+    opacity: 0;
+}
+
+.apple .appleContent .mask{
+    width: 50%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    z-index: 4000;
+}
+
+.apple .appleContent .leftMask {
+    left: 0;
+}
+
+.apple .appleContent .rightMask {
+    right: 0;
+}
+
+.apple .appleContent .imageContent{
+    width: 100%;
+    height: 100%;
+    transform:scale(1.5);
+    background:url('../images/steve_jobs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    opacity: 1;
+    transition: opacity .5s;
+    z-index: 3000;
+}
+
+.apple .appleContent .imageContent.active{
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.apple .appleContent .lastTitle{
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -2000;
+}
+
+.apple .appleContent .lastTitle.active{
+    opacity: 1;
+}
+
+.apple .appleContent .lastTitle h2{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+}
+
+@media (max-width: 900px)  and  (min-width: 360px) {
+    .fixedContent,footer{
+        height: 200px;
+    }
+    .fixedContent h2{
+        font-size: 30px;
+        top:55%;
+    }
+
+    .apple .appleContent .firstTitle{
+        top:40%;
+    }
+
+    .apple .appleContent .imageContent{
+        background-image: url("images/steve_jobs_m.jpg");
+        background-size: 100%;
+    }
+
+    footer h2{
+        font-size: 30px;
+        top:45%;
+    }
+}

@@ -1,0 +1,67 @@
+.cube_wrap {
+    perspective: 600px;
+    width:294px;
+    height: 582px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3000;
+}
+
+.cube_wrap .cube_box {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform:rotateY(0deg) scale(0.8);
+    transition: transform .5s;
+}
+
+.cube_wrap .cube_box .cube_face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.cube_wrap .cube_box .cube_face.front {
+    width:294px;
+    height: 582px;
+    transform: rotateY(0deg) translateZ(11px);
+    background-image: url("../images/iphone_front.png");
+}
+
+.cube_wrap .cube_box .cube_face.back {
+    width:294px;
+    height: 582px;
+    transform: rotateY(180deg) translateZ(12px);
+    background-image: url("../images/iphone_back.png");
+}
+
+.cube_wrap .cube_box .cube_face.left {
+    width:38px;
+    height: 582px;
+    transform: rotateY(-90deg) translateZ(15px);
+    background-image: url("../images/iphone_left.png");
+}
+
+.cube_wrap .cube_box .cube_face.right {
+    width:38px;
+    height: 582px;
+    transform: rotateY(90deg) translateZ(270px);
+    background-image: url("../images/iphone_right.png");
+}
+
+.cube_wrap .cube_box .cube_face.bottom {
+    width:294px;
+    height: 38px;
+    transform: rotateX(-90deg) translateZ(555px);
+    background-image: url("../images/iphone_bottom.png");
+}
+
+.cube_wrap .cube_box .cube_face.top {
+    width:294px;
+    height: 38px;
+    transform: rotateX(90deg) translateZ(15px);
+    background-image: url("../images/iphone_top.png");
+}

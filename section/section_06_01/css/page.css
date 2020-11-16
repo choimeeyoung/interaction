@@ -1,0 +1,447 @@
+
+
+.content{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+}
+
+.text-mask-list .content {
+    height: 565px;
+    z-index: 10;
+}
+
+.text-mask-list .content li{
+    display: inline-block;
+    padding: 0 15px 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-mask-list .content li a{
+    transform : translateX(0);
+    transition: transform .5s;
+}
+
+
+.text-mask-list .content li span.txt {
+    font-size: 140px;
+    font-weight: 900;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    transform : translateX(-100%);
+    opacity: 0;
+    animation-fill-mode: both;
+     transition: all 1.5s 1s; 
+}
+
+.text-mask-list.active .content li span.txt{
+    transform : translateX(0%);
+    opacity: 1;
+}
+
+
+.text-mask-list.active .content li span.mask{
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    animation-name: move-text-mask;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-duration: 2s;
+    transform : translateX(-10px);
+}
+
+@keyframes move-text-mask{
+    0%{
+        width:0%;
+        transform : translateX(0%);
+    }
+
+    50%{
+        width:100%;
+        transform : translateX(0%);
+    }
+
+    100%{
+        width:100%;
+        transform : translateX(101%);
+    }
+}
+
+.text-mask-list.active .content li span.mask2{
+    width:0%;
+    height: 40%;
+    display: inline-block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: #e9c400;
+    z-index: 8;
+    transition: width 0.5s;
+    z-index: -5;
+}
+
+.text-mask-list .content li a:hover span.mask2{
+    width:100%;
+}
+
+.text-mask-list .content li a:hover {
+    transform : translateX(-10px);
+}
+
+/*==============================================*/
+
+.today-section {
+    text-align: center;
+}
+
+.today-section .content {
+    height: 300px;
+    top: -20%;
+}
+
+.today-section .date-count {
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .5 1s;
+}
+
+.today-section.active .date-count {
+    opacity: 1;
+}
+
+.today-section.active .date-count::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.today-section .date-count .count-box {
+    float: left;
+    animation: count_date 2.8s .2s ease-out both paused;
+}
+
+@keyframes count_date {
+    0% {
+        transform: translateY(7200px)
+    }
+
+    100% {
+        transform: translateY(-7200px)
+    }
+}
+
+.today-section .date-count .count-box.active {
+    animation-play-state: running;
+}
+
+.today-section .date-count .count-box span {
+    display: block;
+    height: 300px;
+    font-size: 300px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 6px #fff;
+}
+
+.today-section strong {
+    color: #fff;
+    font-size: 300px;
+    opacity: .1;
+    position: absolute;
+    left: 50px;
+    bottom:-350px;
+    transform: translateX(-150%);
+    transition: transform 1s;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.today-section.active strong{
+    transform: translateX(0%);
+}
+
+
+/*==============================================*/
+.image-mask .content{
+    height: 680px;
+}
+.image-mask .content h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom:60px;
+}
+
+.image-mask .content h2 span{
+    font-size: 30px;
+    display: block;
+}
+
+.image-mask .content ul{
+    width:60%;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.image-mask .content ul li{
+    width:48%;
+    margin:0 4% 4% 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.image-mask .content ul li:nth-child(2n),
+.image-mask .content ul li:nth-child(2n):after{
+    margin-right: 0%;
+}
+
+.image-mask .content ul li figure{
+    width:100%;
+    transform : translateX(-100%);
+    transition: 1.2s .5s; 
+}
+
+.image-mask.active ul li figure{
+    transform : translateX(0%);
+}
+
+.image-mask .content ul li:after{
+    width:100%;
+    height: 100%;
+    display: inline-block;
+    content:"";
+    background-color: #111;
+    position: absolute;
+    top:0;
+    right: 0;
+    transition: 2.5s;
+}
+
+.image-mask .content ul li:nth-child(2n):after{
+    left: 0;
+}
+
+.image-mask.active ul li:after{
+    width:0%;
+}
+
+/*==============================================*/
+
+.text-image-mask .content {
+    height: 575px;
+}
+
+.text-image-mask .content > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-image-mask .content h2 {
+    width: 700px;
+    height: 135px;
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 20px auto 0;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.text-image-mask.active .content h2 {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.text-image-mask .content h2 span {
+    font-size: 18px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.text-image-mask .content figure {
+    width: 380px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-100%);
+    transition: transform 1s .5s;
+}
+
+
+.text-image-mask.active .content figure {
+    transform: translateY(0%);
+}
+
+/*==============================================*/
+.text-overlap .content {
+    width: 100%;
+    height: 465px;
+}
+
+.text-box{
+    line-height: 1;
+}
+
+.text-box > div {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.text-box > div p {
+    width: 200%;
+    color: #fff;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-box > div.text-box-right p {
+    color: #00b8ff;
+    margin-left: -100%;
+}
+
+.text-box.type02 .text-box-left p{
+    color: #00b8ff;
+}
+
+.text-box.type02 .text-box-right p{
+    color: #fff;
+}
+
+.text-overlap .content div p span{
+    display: inline-block;
+    animation: text-overlap-move;
+    animation-duration: 2.2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+.text-overlap .content div:nth-child(1) p span{
+    animation-delay: 0 !important;
+}
+
+.text-overlap .content div:nth-child(2) p span{
+    animation-delay: .3s !important;
+}
+
+.text-overlap .content div:nth-child(3) p span{
+    animation-delay: .6s !important;
+}
+
+.text-overlap .content div > div p span{
+    animation-play-state: running;
+}
+
+@keyframes text-overlap-move{
+    0%{
+        transform: translateX(-50%);
+    }
+
+    50%{
+        transform: translateX(50%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+/*==============================================*/
+.overlap-background .content{
+    height: 695px;
+    z-index: 1000;
+}
+
+.overlap-background .content h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.overlap-background .content h2 span {
+    font-size: 30px;
+    display: block;
+}
+
+.overlap-background .content figure{
+    width:250px;
+    margin: 0 auto;
+}
+
+
+
+.overlap-background .overlap-background-bg{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 10;
+}
+
+.overlap-background .overlap-background-bg:nth-child(2){
+    background-color: #000;
+    transition: width .5s;
+    z-index: 40;
+}
+
+.overlap-background .overlap-background-bg:nth-child(3){
+    background-color:#272727;
+    transition: width .5s .7s;
+    z-index: 30;
+}
+
+.overlap-background .overlap-background-bg:nth-child(4){
+    background-color:#c2bada;
+    transition: width .5s 1.2s;
+    z-index: 20;
+}
+
+.overlap-background.active .overlap-background-bg04{
+    background-color:#000;
+}
+
+.overlap-background.active .overlap-background-bg{
+    width:0;
+}
+
+
+
+
+
+
+/**/
+.max-width-1100px{
+    max-width: 1100px;
+}
+
+.max-width-100{
+    max-width: 100%;
+}

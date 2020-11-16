@@ -1,0 +1,75 @@
+article {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+section h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+section li {
+    width: 150px;
+    margin-right: 80px;
+    float: left;
+}
+
+section li img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+section li figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+section li img.img01 {
+    transform: rotate(60deg);  
+}
+
+section li img.img01.active {
+    transform: rotate(0deg);
+}
+
+section li img.img02 {
+    transform: scale(0.5);
+}
+
+section li img.img02.active {
+    transform: scale(1);
+}
+
+section li img.img03 {
+    transform: skew(-45deg);
+}
+
+section li img.img03.active {
+    transform: skew(0deg);
+}
+
+section li img.img04 {
+    transform: translate(100px, -100px);
+}
+
+section li img.img04.active {
+    transform: translate(0px, 0px);
+}
+
+section div span{
+    width:100px;
+    height: 30px;
+    line-height: 32px;
+    border:1px solid #ccc;
+    display: inline-block;
+}
+
+.transition li img{
+    transition: transform 0.5s;
+}

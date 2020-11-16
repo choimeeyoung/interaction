@@ -1,0 +1,98 @@
+header {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    z-index: 3000;
+}
+
+header ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header ul li {
+    margin-bottom: 15px;
+}
+
+header ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header ul li a .fa {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+    background-image: url("../images/icon_p.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0);
+    transition: transform .3s;
+}
+
+header ul li.active a .fa {
+    background-position: 0 -16px;
+    transform: rotate(180deg);
+}
+
+header ul li.active a {
+    color: #f0582b;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap .mainTitle {
+    font-family: 'Noto Sans KR';
+    position: fixed;
+    font-size: 100px;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4000;
+}
+
+.wrap .mainTitle span {
+    font-size: 30px;
+    border-bottom: 3px solid #fff;
+    float: right;
+}
+
+.wrap .mainTitle h2 {
+    position: relative;
+    top: -20px;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.section::after{
+    width:100%;
+    height: 100%;
+    content: "";
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.section figure {
+    width: 100%;
+    height: 100%;
+}
+
+.section figure img {
+    height: 100%;
+}

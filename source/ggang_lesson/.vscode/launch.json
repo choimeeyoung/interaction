@@ -1,0 +1,12 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/Users/choemiyeong/Library/Mobile Documents/com~apple~CloudDocs/inflearn/인터렉션/예제코드/20201028_ggang_lesson/ggang_lesson/section10/step1/index.html"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css">
+    <script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+    <style>
+ 
+    </style>
+</head>
+
+<body>
+    <article class="wrap">
+        <header>
+            FIXED CONTENT
+        </header>
+        <section class="content">
+            <div class="macContent">
+                <div class="description description01">
+                    <p>16인치 모니터</p>
+                </div>
+
+                <div class="description description02">
+                    <p>인체공학 키보드</p>
+                </div>
+
+                <div class="description description03">
+                    <p>터치 트랙패드</p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <script type="text/javascript">
+        $(function () {
+            let scrollTop;
+            let windowHeight = $(window).height();
+            let contentHeight = $('.content').height();
+            let scrollDistance = contentHeight - windowHeight;
+            let scrollPercent;
+            let percent;
+
+            let el = document.querySelector('.macContent');
+            let canvas = document.createElement('canvas');
+
+            canvas.width = 1920;
+            canvas.height = 1080;
+
+            let ctx = canvas.getContext('2d');
+            el.appendChild(canvas);
+
+            let imgArray = [];
+            let imgNumber = 0;
+            let imgCount = 0;
+
+            function setProperty() {
+                scrollTop = $(window).scrollTop() - $('header').height();
+                scrollPercent = scrollTop / scrollDistance;
+                percent = Math.max(0, scrollPercent * 100);
+            }
+
+            function imgAction() {
+                imgNumber = Math.max(0, Number(116 * percent * 1 / 100).toFixed(0));
+                ctx.clearRect(0, 0, 1920, 1080);
+                ctx.drawImage(imgArray[imgNumber], 0, 0, canvas.width, canvas.height);
+            }
+
+            function descriptionAction() {
+                if (imgNumber >= 59) {
+                    $('.content .macContent .description03').addClass('active');
+                } else if (imgNumber >= 49) {
+                    $('.content .macContent .description02').addClass('active');
+                } else if (imgNumber >= 43) {
+                    $('.content .macContent .description01').addClass('active');
+                }
+
+                if (imgNumber > 72 || imgNumber < 43) {
+                    $('.content .macContent .description').removeClass('active');
+                }
+            }
+
+            $(window).scroll(function () {
+                setProperty();
+                imgAction();
+                descriptionAction();
+            })
+
+            function init() {
+                for (let i = 0; i <= 116; i++) {
+                    const img = new Image();
+                    const imgPath = "images/" + i + ".jpg";
+                    img.src = imgPath;
+                    img.onload = function () {
+                        imgCount++;
+                        if (imgCount === 116) {
+                            setProperty();
+                            imgAction();
+                            descriptionAction();
+                        }
+                    }
+                    imgArray.push(img);
+                }
+            }
+
+            init();
+        });
+
+    </script>
+</body>
+
+</html>

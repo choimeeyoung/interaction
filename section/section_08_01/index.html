@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css">
+    <script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+</head>
+
+<body>
+    <article class="wrap">
+        <section class="appleWatch">
+            <div>
+                <figure>
+                    <img src="images/bg_device.png">
+                </figure>
+                <ul>
+                    <li><img src="images/01.png"></li>
+                    <li><img src="images/02.png"></li>
+                    <li><img src="images/03.png"></li>
+                    <li><img src="images/04.png"></li>
+                </ul>
+        </section>
+
+        <section class="applWatchText active">
+            <p>
+                <strong>말 잘하는 Siri. 하는 일도 많아지다.</strong> 근처에 있는<br>
+                타코 맛집을 찾으시나요? 아니면 내일 일정 확인이<br>
+                필요하신가요? 방금 들은 90년대 노래의 제목이<br>
+                궁금하다고요? 그냥 말만 하세요.
+            </p>
+        </section>
+
+        <section class="applWatchText">
+            <p>
+                <strong>말 잘하는 Siri. 하는 일도 많아지다.</strong> 근처에 있는<br>
+                타코 맛집을 찾으시나요? 아니면 내일 일정 확인이<br>
+                필요하신가요? 방금 들은 90년대 노래의 제목이<br>
+                궁금하다고요? 그냥 말만 하세요.
+            </p>
+        </section>
+
+        <section class="applWatchText">
+            <p>
+                <strong>말 잘하는 Siri. 하는 일도 많아지다.</strong> 근처에 있는<br>
+                타코 맛집을 찾으시나요? 아니면 내일 일정 확인이<br>
+                필요하신가요? 방금 들은 90년대 노래의 제목이<br>
+                궁금하다고요? 그냥 말만 하세요.
+            </p>
+        </section>
+
+        <section class="applWatchText">
+            <p>
+                <strong>말 잘하는 Siri. 하는 일도 많아지다.</strong> 근처에 있는<br>
+                타코 맛집을 찾으시나요? 아니면 내일 일정 확인이<br>
+                필요하신가요? 방금 들은 90년대 노래의 제목이<br>
+                궁금하다고요? 그냥 말만 하세요.
+            </p>
+        </section>
+    </article>
+
+
+    <script type="text/javascript">
+        $(function () {
+
+            let windowHeight = $(window).height();
+            let wrapHeight = $('.wrap').height();
+            let scollDistance = wrapHeight - windowHeight;
+            let scrollTop;
+
+            function setProperty() {
+                scrollTop = $(window).scrollTop();
+                scrollPercent = scrollTop / scollDistance * 100;
+                $('.applWatchText').removeClass('active');
+            }
+
+            function scrollMotion() {
+                if (scrollPercent <= 15) {
+                    $('.applWatchText:nth-child(2)').addClass('active')
+                    $('.appleWatch div ul').css({ transform: 'translate(-0%)' });
+                } else if (scrollPercent <= 48) {
+                    $('.applWatchText:nth-child(3)').addClass('active')
+                    $('.appleWatch div ul').css({ transform: 'translate(-25%)' });
+                } else if (scrollPercent <= 81) {
+                    $('.applWatchText:nth-child(4)').addClass('active')
+                    $('.appleWatch div ul').css({ transform: 'translate(-50%)' });
+                } else if (scrollPercent <= 100) {
+                    $('.applWatchText:nth-child(5)').addClass('active')
+                    $('.appleWatch div ul').css({ transform: 'translate(-75%)' });
+                }
+            }
+
+            $(window).scroll(function () {
+                setProperty();
+                scrollMotion();
+            })
+
+            function init() {
+                setProperty();
+                scrollMotion();
+            }
+
+            init();
+
+        });
+
+    </script>
+</body>
+
+</html>

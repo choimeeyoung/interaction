@@ -1,0 +1,73 @@
+.content {
+    width: 100%;
+    height: 3000px;
+}
+
+.content .macContent {
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.content .macContent canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+}
+
+.content .macContent .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content .macContent .description p {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity .5s;
+    transition-delay: .5s;
+}
+
+.content .macContent .description.active p {
+    opacity: 1;
+}
+
+.content .macContent .description::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    background-color: #000;
+    display: inline-block;
+    transition: width .5s;
+    position: absolute;
+    top: 15px;
+    left: -125px;
+}
+
+.content .macContent .description.active::after {
+    width: 120px;
+}
+
+.content .macContent .description01 {
+    margin-top: -220px;
+    margin-left: 425px;
+}
+
+.content .macContent .description02 {
+    margin-top: -20px;
+    margin-left: -380px;
+}
+
+.content .macContent .description02::after {
+    left: 130px;
+}
+
+.content .macContent .description03 {
+    margin-top: 100px;
+    margin-left: 200px;
+}

@@ -1,0 +1,47 @@
+.wrap {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.wrap h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wrap .vane img {
+    width: 150px;
+    transform-origin: center;
+    transform: rotate(0deg);
+    -webkit-animation-name: move_model;
+            animation-name: move_model;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            
+    /* forwards:애니메이션이 끝날 때 요소의 마지막 키 프레임의 스타일 값을 유지 */
+    /* -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; */
+
+    /* backwards:첫 번째 키 프레임에 의해 설정된 스타일 값을 얻음 */
+    /* -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards; */
+
+    /* both:애니메이션이 시작되기 전에 첫 번째 키 프레임에서 설정 한 스타일 값을 가져 오도록하고 애니메이션이
+    끝날 때 마지막 키 프레임의 스타일 값을 유지 */
+     /* animation-fill-mode: both;   */
+}
+
+
+
+@keyframes move_model {
+    to{
+        transform: rotate(360deg);
+    }
+} 

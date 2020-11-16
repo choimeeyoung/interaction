@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css">
+    <script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <article class="wrap">
+        <header>
+            <ul>
+                <li><a href="#music"><i class="fa"></i>MUSIC</a></li>
+                <li><a href="#lady"><i class="fa"></i>LADY</a></li>
+                <li><a href="#city"><i class="fa"></i>CITY</a></li>
+                <li><a href="#bluesky"><i class="fa"></i>BLUESKY</a></li>
+                <li><a href="#building"><i class="fa"></i>BUILDING</a></li>
+                <li><a href="#lonely"><i class="fa"></i>LONELY</a></li>
+                <li><a href="#elegance"><i class="fa"></i>ELEGANCE</a></li>
+                <li><a href="#space"><i class="fa"></i>SPACE</a></li>
+            </ul>
+        </header>
+
+        <section class="mainTitle">
+            <span>HELLO :D</span>
+            <h2>
+                MUSIC
+            </h2>
+        </section>
+
+        <section class="cube_wrap">
+            <div class="cube_box">
+                <div class="cube_face front"></div>
+                <div class="cube_face back"></div>
+                <div class="cube_face left"></div>
+                <div class="cube_face right"></div>
+                <div class="cube_face top"></div>
+                <div class="cube_face bottom"></div>
+            </div>
+        </section>
+
+        <section class="section" id="music">
+            <figure><img src="images/1.jpg"></figure>
+        </section>
+
+        <section class="section" id="lady">
+            <figure><img src="images/2.jpg"></figure>
+        </section>
+
+        <section class="section" id="city">
+            <figure><img src="images/3.jpg"></figure>
+        </section>
+
+        <section class="section" id="building">
+            <figure><img src="images/4.jpg"></figure>
+        </section>
+
+        <section class="section" id="blueSky">
+            <figure><img src="images/5.jpg"></figure>
+        </section>
+
+        <section class="section" id="lonely">
+            <figure><img src="images/6.jpg"></figure>
+        </section>
+
+        <section class="section" id="elegance">
+            <figure><img src="images/7.jpg"></figure>
+        </section>
+
+        <section class="section" id="space">
+            <figure><img src="images/8.jpg"></figure>
+        </section>
+
+    </article>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('header ul li').on('click', function () {
+                $('header ul li').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            let musicPage;
+            let ladyPage;
+            let cityPage;
+            let buildingPage;
+            let blueSkyPage;
+            let lonelyPage;
+            let elegancePage;
+            let spacePage;
+            let scrollTop;
+            let thisPageNum;
+            let wrapHeight;
+            let windowHeight;
+            let realScrollDistance;
+            let cubeRotateTotalDeg;
+
+            function resetProperty() {
+                wrapHeight = $(".wrap").height();
+                windowHeight = $(window).height();
+                realScrollDistance =  wrapHeight - windowHeight;
+
+                musicPage = $('#music').offset().top;
+                ladyPage = $('#lady').offset().top;
+                cityPage = $('#city').offset().top;
+                buildingPage = $('#building').offset().top;
+                blueSkyPage = $('#blueSky').offset().top;
+                lonelyPage = $('#lonely').offset().top;
+                elegancePage = $('#elegance').offset().top;
+                spacePage = $('#space').offset().top;
+
+                cubeRotateTotalDeg = 1100;
+            }
+
+            function setProperty() {
+                scrollTop = $(window).scrollTop();
+                $('header ul li').removeClass('active');
+                thisPageNum = changeThisPageNumber();
+                $('header ul li:nth-child(' + thisPageNum + ')').addClass('active')
+            }
+
+            function changeThisPageNumber(){
+                if (scrollTop >= spacePage) {
+                    return 8;
+                } else if (scrollTop >= elegancePage) {
+                    return 7;
+                } else if (scrollTop >= lonelyPage) {
+                    return 6;
+                } else if (scrollTop >= blueSkyPage) {
+                    return 5;
+                } else if (scrollTop >= buildingPage) {
+                    return 4;
+                } else if (scrollTop >= cityPage) {
+                    return 3;
+                } else if (scrollTop >= ladyPage) {
+                    return 2;
+                } else if (scrollTop >= musicPage) {
+                    return 1;
+                }
+            }
+
+            function changeTitleAndColor() {
+                const getMainTitle = $('header ul li:nth-child(' + thisPageNum + ') a').text();
+                $('.wrap .mainTitle h2').text(getMainTitle);
+
+                if(thisPageNum == 2 || thisPageNum == 3){
+                    $('.wrap .mainTitle').css({ 'color': '#000' })
+                    $('.wrap .mainTitle span').css({"border-bottom":"3px solid #000"})
+                }else{
+                    $('.wrap .mainTitle').css({ 'color': '#fff' })
+                    $('.wrap .mainTitle span').css({"border-bottom":"3px solid #fff"})
+                }
+            }
+
+            function changeCubeImage(){
+                $(".cube_wrap .cube_box .cube_face").css({"background-image": "url('images/"+thisPageNum+".jpg')","background-size":"cover"})
+            }
+
+            function rotateCude(){
+                const cubeRotateDeg = scrollTop/realScrollDistance * 7200;
+                $(".cube_box").css({transform: 'rotateY('+cubeRotateDeg +'deg) rotateX('+cubeRotateDeg +'deg)'})
+            }
+
+            function init() {
+                setProperty();
+                changeTitleAndColor();
+                rotateCude();
+                changeCubeImage();
+            }
+
+            $(window).scroll(function () {
+                init();
+            })
+
+            resetProperty();
+            init();
+        })
+    </script>
+</body>
+
+</html>

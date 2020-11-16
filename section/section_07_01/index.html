@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css">
+    <script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+</head>
+<style type="text/css">
+
+   
+</style>
+
+<body>
+    <article class="wrap">
+        <header>
+            GGANG CODING
+        </header>
+
+        <section class=fixedContent>
+            <h2>
+                FIXEDCONTENT
+            </h2>
+        </section>
+
+        <section class="apple">
+            <div class="appleContent">
+                <div class="firstTitle">
+                    <h2>APPLE</h2>
+                </div>
+
+                <div class="mask leftMask"></div>
+                <div class="mask rightMask"></div>
+
+                <div class="imageContent"></div>
+
+                <div class="lastTitle">
+                    <h2>
+                        APPLE
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h2>END</h2>
+        </footer>
+    </article>
+
+    <script type="text/javascript">
+        $(function () {
+            let scrollTop;
+            let appleSectionOffsetTop = $(".apple").offset().top;
+            let appleSectionOffsetBottom = $(".apple").offset().top + $(".apple").height();
+            let appleSectionScrollMove = $(".apple").height()-$(window).height();
+            let appleSectionScrollTop;
+            let appleSectionMoveRate;
+            let appleSectionMovePerCent;
+
+
+            function setProperty(){
+                scrollTop = $(window).scrollTop();
+                appleSectionScrollTop = scrollTop - appleSectionOffsetTop;
+                appleSectionMoveRate = appleSectionScrollTop/appleSectionScrollMove;
+            }
+
+            function motionRender(){
+                if (appleSectionMoveRate *100 > 2) {
+                    $('.apple .appleContent .firstTitle').addClass('active');
+                } else {
+                    $('.apple .appleContent .firstTitle').removeClass('active')
+                }
+
+                const maskValue = Math.max(0,50 - (appleSectionMoveRate) * 50);
+
+                $('.apple .appleContent .mask').css({'width':maskValue+'%'});
+
+                const imgValue = Math.max(1,1.5-(appleSectionMoveRate*1.5))
+                $('.apple .appleContent .imageContent').css({transform:'scale('+imgValue+')'});
+
+                if(appleSectionMoveRate *100 > 90){
+                    $('.apple .appleContent .imageContent').addClass("active");
+                    $('.apple .appleContent .lastTitle').addClass('active');
+                    $('header').css("display","none");
+                }else{
+                    $('.apple .appleContent .imageContent').removeClass("active");
+                    $('.apple .appleContent .lastTitle').removeClass('active');
+                    $('header').css("display","block");
+                }
+            }
+
+            $(window).scroll(function () {
+                init();
+            });
+            
+            $(window).resize(function(){
+                init();
+            });
+
+            function init(){
+                setProperty();
+                motionRender();
+            }
+            
+            init();
+        });
+    </script>
+</body>
+
+</html>

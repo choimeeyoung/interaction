@@ -1,0 +1,72 @@
+.wrap {
+    width: 100%;
+    position: relative;
+    background-color: #111;
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow: hidden;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 2000;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer {
+    height: 300px;
+    background-color: #111;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    z-index: 200;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.bg-rotate{
+    width: 1200px;
+    height: 1215px;
+    background: url(../images/bg_rotate01.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:70px;
+    right: 0px;
+    z-index: 0;
+    opacity: 0.3;
+    animation: bg_rotation 40s infinite paused linear;
+}
+
+.bg-rotate.active{
+    animation-play-state: running;
+}
+
+@keyframes bg_rotation{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+

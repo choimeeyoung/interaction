@@ -1,0 +1,69 @@
+.wrap {
+    width: 100%;
+    background-color: #080808;
+}
+
+.wrap>section:not(.appleWatch) {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.appleWatch {
+    width: 50%;
+    position: sticky;
+    top: 0;
+    float: right;
+    height: 100vh;
+}
+
+.appleWatch div {
+    width: 250px;
+    height: 425px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    overflow: hidden;
+}
+
+.appleWatch div figure {
+    z-index: 2000;
+}
+
+.appleWatch div ul {
+    width: 848px;
+    position: absolute;
+    top: 93px;
+    left: 15px;
+    z-index: -1000;
+    transform: translateX(0);
+    transition: transform .5s cubic-bezier(0.76, 0.03, 0.17, 1.02);
+}
+
+.appleWatch div ul li {
+    width: 212px;
+    float: left;
+}
+
+.applWatchText {
+    opacity: .5;
+    transition: opacity .3;
+}
+
+.applWatchText p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.applWatchText strong {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.applWatchText.active {
+    opacity: 1;
+}

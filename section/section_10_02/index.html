@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>깡코딩 - 초보자도 만들 수 있는 스크를인터렉션1편</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css">
+    <script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+</head>
+
+<body>
+    <article class="wrap">
+        <header>
+            <ul>
+                <li><a href="#parallax"><i class="fa"></i>PARALLAX</a></li>
+                <li><a href="#side"><i class="fa"></i>SIDE</a></li>
+                <li><a href="#upper"><i class="fa"></i>UPPER</a></li>
+                <li><a href="#back"><i class="fa"></i>BACK</a></li>
+            </ul>
+        </header>
+
+        <section class="mainTitle">
+            <span>HELLO :D</span>
+            <h2>
+                PARALLAX
+            </h2>
+        </section>
+
+        <section class="cube_wrap">
+            <div class="cube_box">
+                <div class="cube_face front"></div>
+                 <div class="cube_face right"></div> 
+                <div class="cube_face back"></div> 
+                <div class="cube_face left"></div>
+                
+                <div class="cube_face top"></div>
+                <div class="cube_face bottom"></div>
+            </div>
+        </section>
+
+        <section class="section" id="parallax">
+            <figure><img src="images/1.jpg"></figure>
+        </section>
+
+        <section class="section" id="side">
+            <figure><img src="images/2.jpg"></figure>
+        </section>
+
+        <section class="section" id="upper">
+            <figure><img src="images/3.jpg"></figure>
+        </section>
+
+        <section class="section" id="back">
+            <figure><img src="images/4.jpg"></figure>
+        </section>
+    </article>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('header ul li').on('click', function () {
+                $('header ul li').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            let parallax;
+            let side;
+            let upper;
+            let back;
+
+            let scrollTop;
+            let thisPageNum;
+            let wrapHeight;
+            let windowHeight;
+            let realScrollDistance;
+            let cubeRotateTotalDeg;
+
+            function resetProperty() {
+                wrapHeight = $(".wrap").height();
+                windowHeight = $(window).height();
+                realScrollDistance =  wrapHeight - windowHeight;
+
+                parallax = $('#parallax').offset().top;
+                side = $('#side').offset().top;
+                upper= $('#upper').offset().top;
+                back = $('#back').offset().top;
+               
+                cubeRotateTotalDeg = 1100;
+            }
+
+            function setProperty() {
+                scrollTop = $(window).scrollTop();
+                $('header ul li').removeClass('active');
+                thisPageNum = changeThisPageNumber();
+                $('header ul li:nth-child(' + thisPageNum + ')').addClass('active')
+            }
+
+            function changeThisPageNumber(){
+                if (scrollTop >= back) {
+                    return 4;
+                } else if (scrollTop >= upper) {
+                    return 3;
+                } else if (scrollTop >= side) {
+                   return 2;
+                } else if (scrollTop >= parallax) {
+                    return 1;
+                }
+            }
+
+            function changeTitleAndColor() {
+                const getMainTitle = $('header ul li:nth-child(' + thisPageNum + ') a').text();
+                $('.wrap .mainTitle h2').text(getMainTitle);
+                if(thisPageNum == 1 || thisPageNum == 4){
+                    $('.wrap .mainTitle').css({ 'color': '#fff' })
+                    $('.wrap .mainTitle span').css({"border-bottom":"3px solid #fff"})
+                }else{
+                    $('.wrap .mainTitle').css({ 'color': '#000' })
+                    $('.wrap .mainTitle span').css({"border-bottom":"3px solid #000"})
+                }
+            }
+
+    
+            function rotateCude(){
+                if (scrollTop >= back) {
+                    $('.cube_wrap .cube_box').css({transform:"rotateY(180deg) scale(0.9)"})
+                } else if (scrollTop >= upper) {
+                    $('.cube_wrap .cube_box').css({transform:"rotateX(90deg) scale(0.9)"})
+                } else if (scrollTop >= side) {
+                    $('.cube_wrap .cube_box').css({transform:"rotateY(90deg) scale(0.9)"})
+                } else if (scrollTop >= parallax) {
+                    $('.cube_wrap .cube_box').css({transform:"rotateY(0deg) scale(0.9)"})
+                }
+            }
+
+            function init() {
+                setProperty();
+
+                changeTitleAndColor();
+                
+                rotateCude();
+            }
+
+            $(window).scroll(function () {
+                init();
+            })
+
+            resetProperty();
+            init();
+        })
+    </script>
+</body>
+
+</html>

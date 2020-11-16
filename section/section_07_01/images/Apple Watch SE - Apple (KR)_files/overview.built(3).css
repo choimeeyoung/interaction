@@ -1,0 +1,1331 @@
+#ac-globalfooter .ac-gf-more::after,
+.icon-wrapper .more::after {
+    top: -0.08em;
+}
+
+@media only screen and (min-width: 1069px) {
+    .section-on-the-go .section-content .on-the-go-headline {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-on-the-go .section-content .on-the-go-headline {
+        width: 259px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-on-the-go .section-content .on-the-go-headline {
+        width: unset;
+    }
+}
+
+.section-hero .image-hero.start-frame {
+    background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_small_2x.jpg");
+    }
+}
+
+.section-hero .end-frame {
+    background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_small_2x.jpg");
+    }
+}
+
+.section-music .image-music {
+    background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-music .image-music {
+        background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-music .image-music {
+        background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-music .image-music {
+        background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-music .image-music {
+        background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-music .image-music {
+        background-image: url("/kr/apple-watch-se/b/images/overview/music/audio_apps__cu2bh1l7pzqu_small_2x.jpg");
+    }
+}
+
+.section-hero .image-hero.start-frame {
+    background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero.start-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_startframe__ehzjy4bim466_small_2x.jpg");
+    }
+}
+
+.section-hero .end-frame {
+    background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .end-frame {
+        background-image: url("/kr/apple-watch-se/b/images/overview/hero/hero_endframe__bpba1dsrklyu_small_2x.jpg");
+    }
+}
+
+.section-new-lengths .content-media .image-new-lengths {
+    background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-new-lengths .content-media .image-new-lengths {
+        background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-new-lengths .content-media .image-new-lengths {
+        background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-new-lengths .content-media .image-new-lengths {
+        background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-new-lengths .content-media .image-new-lengths {
+        background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-new-lengths .content-media .image-new-lengths {
+        background-image: url("/kr/apple-watch-se/b/images/overview/new-lengths/new_heights__ckzn8fs232oi_small_2x.jpg");
+    }
+}
+
+.section-workout-blocks .image-workouts {
+    background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-workout-blocks .image-workouts {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-workout-blocks .image-workouts {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-workout-blocks .image-workouts {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-workout-blocks .image-workouts {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-workout-blocks .image-workouts {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_limits__doybtprkccae_small_2x.jpg");
+    }
+}
+
+.section-workout-blocks .image-advanced-metrics {
+    background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-workout-blocks .image-advanced-metrics {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-workout-blocks .image-advanced-metrics {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-workout-blocks .image-advanced-metrics {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-workout-blocks .image-advanced-metrics {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-workout-blocks .image-advanced-metrics {
+        background-image: url("/kr/apple-watch-se/b/images/overview/workout-blocks/workouts_metrics__d0lowm1gc066_small_2x.jpg");
+    }
+}
+
+.section-health-blocks .image-wellness {
+    background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-health-blocks .image-wellness {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-health-blocks .image-wellness {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-health-blocks .image-wellness {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-health-blocks .image-wellness {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-health-blocks .image-wellness {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/handwashing__gnlg22x4z5m6_small_2x.jpg");
+    }
+}
+
+.section-health-blocks .image-emergency {
+    background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-health-blocks .image-emergency {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-health-blocks .image-emergency {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-health-blocks .image-emergency {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-health-blocks .image-emergency {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-health-blocks .image-emergency {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health-blocks/emergency_sos__b080d59gl1g2_small_2x.jpg");
+    }
+}
+
+.section-on-the-go-blocks .image-siri {
+    background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-siri {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-on-the-go-blocks .image-siri {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-siri {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-on-the-go-blocks .image-siri {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-siri {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/siri__d8xtbpejreqa_small_2x.jpg");
+    }
+}
+
+.section-on-the-go-blocks .image-apple-pay {
+    background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-apple-pay {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-on-the-go-blocks .image-apple-pay {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-apple-pay {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-on-the-go-blocks .image-apple-pay {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-on-the-go-blocks .image-apple-pay {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go-blocks/wallet__f04g2wo8ae2y_small_2x.jpg");
+    }
+}
+
+.section-health .image-health {
+    background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-health .image-health {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-health .image-health {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-health .image-health {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-health .image-health {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-health .image-health {
+        background-image: url("/kr/apple-watch-se/b/images/overview/health/health_apps__fbujxvbtiziy_small_2x.jpg");
+    }
+}
+
+.section-sleep .image-sleep {
+    background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-sleep .image-sleep {
+        background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-sleep .image-sleep {
+        background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-sleep .image-sleep {
+        background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-sleep .image-sleep {
+        background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-sleep .image-sleep {
+        background-image: url("/kr/apple-watch-se/b/images/overview/sleep/sleep_time__enbsq853tquu_small_2x.jpg");
+    }
+}
+
+.section-gallery .watches-grid {
+    background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-gallery .watches-grid {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-gallery .watches-grid {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-gallery .watches-grid {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-gallery .watches-grid {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-gallery .watches-grid {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_grid__ey4pk2kdk0uq_small_2x.jpg");
+    }
+}
+
+.gallery-watch-1 glass-hardware {
+    background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_large_2x.jpg");
+    }
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_large.jpg");
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-1 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_large_2x.jpg");
+        }
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-1 glass-hardware {}
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-1 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_medium.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-1 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_medium_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-1 glass-hardware {}
+        }
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .gallery-watch-1 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-1 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_small.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-1 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_01_hw__e0eon0puqh26_small_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-1 glass-hardware {}
+        }
+    }
+}
+
+.gallery-watch-2 glass-hardware {
+    background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_large_2x.jpg");
+    }
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_large.jpg");
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-2 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_large_2x.jpg");
+        }
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-2 glass-hardware {}
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-2 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_medium.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-2 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_medium_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-2 glass-hardware {}
+        }
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .gallery-watch-2 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-2 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_small.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-2 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_02_hw__gzp8gijvsea2_small_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-2 glass-hardware {}
+        }
+    }
+}
+
+.gallery-watch-5 glass-hardware {
+    background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_large_2x.jpg");
+    }
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_large.jpg");
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-5 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_large_2x.jpg");
+        }
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-5 glass-hardware {}
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-5 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_medium.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-5 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_medium_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-5 glass-hardware {}
+        }
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .gallery-watch-5 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-5 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_small.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-5 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_05_hw__c5gj7iuaajau_small_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-5 glass-hardware {}
+        }
+    }
+}
+
+.gallery-watch-6 glass-hardware {
+    background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_large_2x.jpg");
+    }
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_large.jpg");
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-6 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_large_2x.jpg");
+        }
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 1.5dppx),
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi) {
+        .gallery-watch-6 glass-hardware {}
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-6 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_medium.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-6 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_medium_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-6 glass-hardware {}
+        }
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .gallery-watch-6 glass-hardware {
+        background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .gallery-watch-6 glass-hardware {
+            background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_small.jpg");
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-6 glass-hardware {
+                background-image: url("/kr/apple-watch-se/b/images/overview/gallery/watch_faces_06_hw__fubbh7zfj4ya_small_2x.jpg");
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 1.5dppx),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi) {
+            .gallery-watch-6 glass-hardware {}
+        }
+    }
+}
+
+.section-more-apps .app .image-app-calendar {
+    background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_large_2x.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_medium.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_medium_2x.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_small.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_small_2x.png");
+    }
+}
+
+.section-on-the-go .watch-call {
+    background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-on-the-go .watch-call {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-on-the-go .watch-call {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-on-the-go .watch-call {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-on-the-go .watch-call {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-on-the-go .watch-call {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go__fmpspzm3mgyi_small_2x.jpg");
+    }
+}
+
+.section-on-the-go .watch-faces {
+    background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-on-the-go .watch-faces {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-on-the-go .watch-faces {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-on-the-go .watch-faces {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-on-the-go .watch-faces {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-on-the-go .watch-faces {
+        background-image: url("/kr/apple-watch-se/b/images/overview/on-the-go/on_the_go_family__dj1ra1oflm0y_small_2x.jpg");
+    }
+}
+
+.section-customize .image-finishes-static {
+    background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-customize .image-finishes-static {
+        background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-customize .image-finishes-static {
+        background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-customize .image-finishes-static {
+        background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-customize .image-finishes-static {
+        background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-customize .image-finishes-static {
+        background-image: url("/kr/apple-watch-se/b/images/overview/customize/case_finish__cgrulr0p82eu_small_2x.jpg");
+    }
+}
+
+.section-more-apps .app .image-app-calendar {
+    background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_large_2x.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_medium.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_medium_2x.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_small.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-more-apps .app .image-app-calendar {
+        background-image: url("/kr/apple-watch-se/b/images/overview/more-apps/more_apps_icon_calendar__fz8syee5ny2y_small_2x.png");
+    }
+}
+
+
+.section-ar .ar-image {
+    background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-ar .ar-image {
+        background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ar .ar-image {
+        background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ar .ar-image {
+        background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-ar .ar-image {
+        background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-ar .ar-image {
+        background-image: url("/kr/apple-watch-se/b/images/overview/ar/ar_tile_se_lte__eukdkncju1g2_small_2x.jpg");
+    }
+}
+
+
+
